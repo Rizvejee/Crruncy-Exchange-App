@@ -1,0 +1,43 @@
+<html>
+  <head>
+<link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+    <div id="container">
+      <h1>Currency Converter</h1>
+      <form>
+        <div id="amount">
+          <p>Enter Amount</p>
+          <input value="100" type="number">
+          <div id="dropdown">
+            <div id="from">
+              <p>From</p>
+              <div id="select">
+                <img src="https://flagsapi.com/US/flat/64.png">
+                <select name="from"></select>
+                </select>
+              </div>
+            </div>
+            <img id="icon" src="exchange.svg">
+              <div id="dropdown">
+            <div id="to">
+              <p>To</p>
+              <div id="select">
+                <img src="https://flagsapi.com/PK/flat/64.png">
+                <select name="to">
+                </select>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div id="msg">1USD = 280PK</div>
+        <button>Get Exchange Rate</button>
+      </form>
+    </div>
+    
+  <script src="codes.js"></script>
+  <script src="app.js"></script>
+  </body>
+</html>
